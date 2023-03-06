@@ -1,0 +1,2 @@
+- Is Hate Speech : {0:'', 1:''}
+- Level Hate Speech = {1:'Weak', 2:'Medium', 3:'Strong'}
