@@ -15,11 +15,11 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from Unicorn import views
+from Mainapp import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.index),
-    path('predict', views.predict)
+    path('predict', views.predict),
     path('no_hate_speech', views.no_hate_speech),
 ]
